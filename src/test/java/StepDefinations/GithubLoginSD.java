@@ -27,6 +27,8 @@ public class GithubLoginSD {
     @Then("^user is displayed login screen$")
     public void user_is_displayed_login_screen() {
         sf.isloginsectionDisplayed();
+        System.out.println("Login section displayed");
         sf.teardown();
+        
     }
 }
